@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1642188293513,
+  "index": "https://criss332.github.io/app-push/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://criss332.github.io/app-push/favicon.ico",
+        "https://criss332.github.io/app-push/index.html",
+        "https://criss332.github.io/app-push/main.57899a6a16464ddb.js",
+        "https://criss332.github.io/app-push/manifest.webmanifest",
+        "https://criss332.github.io/app-push/polyfills.287045418afdc177.js",
+        "https://criss332.github.io/app-push/runtime.a7628fa5ee388a58.js",
+        "https://criss332.github.io/app-push/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://criss332.github.io/app-push/assets/icons/icon-128x128.png",
+        "https://criss332.github.io/app-push/assets/icons/icon-144x144.png",
+        "https://criss332.github.io/app-push/assets/icons/icon-152x152.png",
+        "https://criss332.github.io/app-push/assets/icons/icon-192x192.png",
+        "https://criss332.github.io/app-push/assets/icons/icon-384x384.png",
+        "https://criss332.github.io/app-push/assets/icons/icon-512x512.png",
+        "https://criss332.github.io/app-push/assets/icons/icon-72x72.png",
+        "https://criss332.github.io/app-push/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://criss332.github.io/app-push/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://criss332.github.io/app-push/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://criss332.github.io/app-push/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://criss332.github.io/app-push/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://criss332.github.io/app-push/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://criss332.github.io/app-push/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://criss332.github.io/app-push/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://criss332.github.io/app-push/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://criss332.github.io/app-push/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://criss332.github.io/app-push/index.html": "8c97c0d8d7792f1fdf6260b6c1154a18ee0fb897",
+    "https://criss332.github.io/app-push/main.57899a6a16464ddb.js": "5ede2638a2bd9623ae3d3c3e7ed9985929e03fd0",
+    "https://criss332.github.io/app-push/manifest.webmanifest": "c8c5d8b2687fa608e8bec389106d94f22c7f759f",
+    "https://criss332.github.io/app-push/polyfills.287045418afdc177.js": "1c5990c10a3236b1a7906f0a3788578a0f0e3a4f",
+    "https://criss332.github.io/app-push/runtime.a7628fa5ee388a58.js": "5ede805cc07bed873d00b4eb54db11da450069d7",
+    "https://criss332.github.io/app-push/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
